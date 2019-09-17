@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <nav class="navbar">
+            <a href="http://127.0.0.1:5500/Weather/index.html">
+                <img src="https://i.redd.it/bxubv474m8221.png" alt="Logo"
+                    height="20" width="20">
+            </a>
+            <strong><i>&nbsp Dawn</i></strong>
+        </nav>
+    </div>
+    <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">Temperature Degree</h2>
+            <span>C</span>
+        </div>
+        <div class="temperature-description">Temperature Desciption</div>
+    </div>
+    <div class="time">
+        <div class="time-section">
+            <h4 class="time-statement" style="position: absolute; bottom: 0; right: 0">Time</h4>
+        </div>
+        <script src='skycons.js'></script>
+        <script src="app.js"></script>
+</body>
+
+</html>
